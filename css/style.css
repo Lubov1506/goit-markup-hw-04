@@ -82,7 +82,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
   border: none;
@@ -125,7 +125,7 @@ img {
   display: block;
   padding: 24px 0 24px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 
@@ -184,10 +184,9 @@ h1 {
   width: 496px;
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
   color: var(--white);
 }
 .hero-button {
@@ -229,14 +228,14 @@ h1 {
 .portfolio-sub-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .skills-text,
 .team-text,
 .portfolio-text {
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
@@ -264,13 +263,12 @@ h1 {
 .team-item-desc {
   align-items: center;
   padding: 32px 0;
-  /* gap: 8px; */
 }
 .team-title,
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -418,7 +416,7 @@ h1 {
 .address-item > a:hover {
   color: var(--ocean);
 }
-.hero-button:hover {
+.hero-button:hover, .hero-button:focus{
   background-color: var(--ocean);
 }
 .hero-button:focus {
